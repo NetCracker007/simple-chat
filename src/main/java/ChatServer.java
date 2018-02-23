@@ -9,9 +9,6 @@ import java.util.Map;
 import java.util.Queue;
 import java.util.concurrent.*;
 
-/**
- * Created by 11120 on 2/21/18.
- */
 public class ChatServer {
 
     public static void runChat(MessageDispatcher messageDispatcher, Map<String, Socket> clientToSocketMapper,

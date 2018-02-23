@@ -4,9 +4,6 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
 
-/**
- * Created by 11120 on 2/21/18.
- */
 public class Client {
 
     private class ChatListenerThread extends Thread {

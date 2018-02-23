@@ -3,9 +3,6 @@ import java.io.PrintWriter;
 import java.net.Socket;
 import java.util.*;
 
-/**
- * Created by 11120 on 2/21/18.
- */
 public class MessageDispatcher {
     Map<String, Socket> clientToSocketMapper;
     Map<String, Queue<String>> clientPendingMessage;
